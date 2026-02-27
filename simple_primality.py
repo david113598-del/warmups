@@ -7,7 +7,12 @@ Instructor: Holtslander
 
 def prime():
             # Write your code here
-    n = float(input("please put in a non negative whole number, its gotta be more than 1.  \n"))
+    n = int(input("please put in a non negative whole number, its gotta be more than 1.  \n"))
+    j = n > n
+    if j == 1 or n:
+        print(f"{n} is a prime number.")
+    else:
+        print(f"{n} is not a prime number.")
 
 
 # You should not need to change any code below this point
